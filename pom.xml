@@ -11,13 +11,6 @@
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
 	</properties>
-	<plugin>            
-              <groupId>org.apache.maven.plugins</groupId>
-              <artifactId>maven-war-plugin</artifactId>
-              <configuration>
-                 <webXml>src\main\webapp\WEB-INF\web.xml</webXml>        
-             </configuration>
-        </plugin>
         <dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -26,4 +19,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<build>
+           <finalName>JenkinsWar</finalName>
+       </build>
 </project>
