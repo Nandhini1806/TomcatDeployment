@@ -20,6 +20,6 @@
 		</dependency>
 	</dependencies>
 	<build>
-           <finalName>JenkinsWar</finalName>
+           <finalName>mavencode</finalName>
        </build>
 </project>
